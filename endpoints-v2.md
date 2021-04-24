@@ -32,9 +32,10 @@ resource.
 * [/biosamples/pgxbs-kftva5c9/](http://progenetix.org/beacon/biosamples/pgxbs-kftva5c9/)
   - retrieval of a single biosample
 
-##### `/biosamples/{id}/variants/`
+##### `/biosamples/{id}/variants/` & `/biosamples/{id}/variants_in_sample/`
 
 * [/biosamples/pgxbs-kftva5c9/variants/](http://progenetix.org/beacon/biosamples/pgxbs-kftva5c9/variants/)
+* [/biosamples/pgxbs-kftva5c9/variants/](http://progenetix.org/beacon/biosamples/pgxbs-kftva5c9/variants_in_sample/)
   - retrieval of all variants from a single biosample
   - currently - and especially since for a mostly CNV containing resource - `variants` means "variant instances" (or as in the early v2 draft `variantsInSample`) 
 
@@ -58,6 +59,7 @@ If using `g_variants` or `variants_in_sample`, those will be treated as aliases.
 * [/variants/5f5a35586b8c1d6d377b77f6/](http://progenetix.org/beacon/variants/5f5a35586b8c1d6d377b77f6/)
 * [/variants_in_sample/5f5a35586b8c1d6d377b77f6/](http://progenetix.org/beacon/variants_in_sample/5f5a35586b8c1d6d377b77f6/)
 
-##### `/variants/{id}/biosamples/`
+##### `/variants/{id}/biosamples/` & `variants_in_sample/{id}/biosamples/
 
 * [/variants/5f5a35586b8c1d6d377b77f6/biosamples/](http://progenetix.org/beacon/variants/5f5a35586b8c1d6d377b77f6/biosamples/)
+* [/variants_in_sample/5f5a35586b8c1d6d377b77f6/biosamples/](http://progenetix.org/beacon/variants_in_sample/5f5a35586b8c1d6d377b77f6/biosamples/)
