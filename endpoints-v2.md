@@ -66,6 +66,7 @@ resource.
   - retrieval of all variants from a single individual
   - currently - and especially since for a mostly CNV containing resource - `variants` means "variant instances" (or as in the early v2 draft `variantsInSample`) 
 
+----
 
 #### Base `variants`
 
