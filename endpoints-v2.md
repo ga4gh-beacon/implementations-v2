@@ -21,7 +21,7 @@ resource.
 
 ----
 
-#### Base `biosamples`
+#### Base `/biosamples`
 
 ##### `/biosamples/` + query
 
@@ -43,7 +43,7 @@ resource.
 
 ----
 
-#### Base `individuals`
+#### Base `/individuals`
 
 ##### `/individuals/` + query
 
@@ -68,7 +68,7 @@ resource.
 
 ----
 
-#### Base `variants`
+#### Base `/variants`
 
 There is currently (April 2021) still some discussion about the implementation and naming
 of the different types of genomic variant endpoints. Since the Progenetix collections
