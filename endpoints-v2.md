@@ -47,10 +47,12 @@ resource.
 
 ##### `/individuals/` + query
 
-* [/individuals/?filters=cellosaurus:CVCL_0004](https://progenetix.org/beacon/individuals/?filters=cellosaurus:CVCL_0004)
-  - this example retrieves all biosamples having an annotation for the Cellosaurus _CVCL_0004_
-  identifier (K562)
+* [/individuals/?filters=NCIT:C7541](https://progenetix.org/beacon/individuals/?filters=NCIT:C7541)
+  - this example retrieves all individuals having an annotation associated with _NCIT:C7541_ (retinoblastoma)
+  - in Progenetix, this particular code will be part of the annotation for the _biosample(s)_ associated with the returned individual
 * [/individuals/?filters=PATO:0020001,NCIT:C9291](https://progenetix.org/beacon/individuals/?PATO:0020001,NCIT:C9291)
+  - this query returns information about individuals with an anal carcinoma (**NCIT:C9291**) and a known male genotypic sex (**PATO:0020001**)
+  - in Progenetix, the information about its sex is associated with the _Individual_ object (and rtherefore in the _individuals_ collection), whereas the information about the cancer type is a property of the _Biosample_ (and therefore stored in the _biosamples_ collection)
 
 ##### `/individuals/{id}/`
 
