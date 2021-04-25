@@ -7,7 +7,7 @@ The Beacon+ implementation - developed in the Python & MongoDB based [`bycon` pr
 implements an expanding set of Beacon v2 paths for the [Progenetix](http://progenetix.org)
 resource.
 
-### Examples
+----
 
 #### Base `/filtering_terms`
 
