@@ -1,7 +1,7 @@
 
 <img align="right" width="160px" src="https://progenetix.org/img/progenetix-logo-black.png">
 
-## Progenetix & Beacon<span style="color: red; font-weight: 800;">+</span>
+<h2>Progenetix & Beacon<span style="color: red; font-weight: 800;">+</span></h2>
 
 The Beacon+ implementation - developed in the Python & MongoDB based [`bycon` project](https://github.com/progenetix/bycon/) -
 implements an expanding set of Beacon v2 paths for the [Progenetix](http://progenetix.org)
