@@ -19,6 +19,8 @@ resource.
 * [/filtering_terms/?filters=PMID](https://progenetix.org/beacon/filtering_terms/?filters=PMID)
 * [/filtering_terms/?filters=NCIT,icdom](https://progenetix.org/beacon/filtering_terms/?filters=NCIT,icdom)
 
+----
+
 #### Base `biosamples`
 
 ##### `/biosamples/` + query
@@ -37,6 +39,29 @@ resource.
 * [/biosamples/pgxbs-kftva5c9/variants/](http://progenetix.org/beacon/biosamples/pgxbs-kftva5c9/variants/)
 * [/biosamples/pgxbs-kftva5c9/variants/](http://progenetix.org/beacon/biosamples/pgxbs-kftva5c9/variants_in_sample/)
   - retrieval of all variants from a single biosample
+  - currently - and especially since for a mostly CNV containing resource - `variants` means "variant instances" (or as in the early v2 draft `variantsInSample`)
+
+----
+
+#### Base `individuals`
+
+##### `/individuals/` + query
+
+* [/individuals/?filters=cellosaurus:CVCL_0004](https://progenetix.org/beacon/individuals/?filters=cellosaurus:CVCL_0004)
+  - this example retrieves all biosamples having an annotation for the Cellosaurus _CVCL_0004_
+  identifier (K562)
+* [/individuals/?filters=PATO:0020001,NCIT:C9291](https://progenetix.org/beacon/individuals/?PATO:0020001,NCIT:C9291)
+
+##### `/individuals/{id}/`
+
+* [/biosamples/pgxind-kftx25hb/](http://progenetix.org/beacon/biosamples/pgxind-kftx25hb/)
+  - retrieval of a single individual
+
+##### `/individuals/{id}/variants/` & `/individuals/{id}/variants_in_sample/`
+
+* [/individuals/pgxind-kftx25hb/variants/](http://progenetix.org/beacon/individuals/pgxind-kftx25hb/variants/)
+* [/individuals/pgxind-kftx25hb/variants/](http://progenetix.org/beacon/individuals/pgxind-kftx25hb/variants_in_sample/)
+  - retrieval of all variants from a single individual
   - currently - and especially since for a mostly CNV containing resource - `variants` means "variant instances" (or as in the early v2 draft `variantsInSample`) 
 
 
