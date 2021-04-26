@@ -1,7 +1,3 @@
----
-title: Progenetix Examples
----
-
 <img align="right" width="160px" src="https://progenetix.org/img/progenetix-logo-black.png">
 
 <h2>Progenetix & Beacon<span style="color: red; font-weight: 800;">+</span></h2>
