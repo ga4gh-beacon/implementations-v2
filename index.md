@@ -10,4 +10,10 @@ The pages can be accessed as [standard web pages](https://beacon-project.io/impl
 Please add your individual project pages in this directory and link them here, following the
 blueprint from the [Progenetix](progenetix-examples.md) page.
 
+## Feedback
+
+To provide feedback about the implementations please use this project's [**issues tracker**](https://github.com/ga4gh-beacon/implementations-v2/issues).
+
+## Example Pages
+
 ### [Progenetix Examples](progenetix-examples.md)
