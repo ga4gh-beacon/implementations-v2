@@ -8,6 +8,14 @@ resource.
 
 ----
 
+#### Base `/`
+
+The root path provides the standard `BeaconInfoResponse`.
+
+* [/](https://progenetix.org/beacon/)
+
+----
+
 #### Base `/filtering_terms`
 
 ##### `/filtering_terms/`
@@ -88,7 +96,7 @@ If using `g_variants` or `variants_in_sample`, those will be treated as aliases.
 * [/variants/5f5a35586b8c1d6d377b77f6/](http://progenetix.org/beacon/variants/5f5a35586b8c1d6d377b77f6/)
 * [/variants_in_sample/5f5a35586b8c1d6d377b77f6/](http://progenetix.org/beacon/variants_in_sample/5f5a35586b8c1d6d377b77f6/)
 
-##### `/variants/{id}/biosamples/` & `variants_in_sample/{id}/biosamples/
+##### `/variants/{id}/biosamples/` & `variants_in_sample/{id}/biosamples/`
 
 * [/variants/5f5a35586b8c1d6d377b77f6/biosamples/](http://progenetix.org/beacon/variants/5f5a35586b8c1d6d377b77f6/biosamples/)
 * [/variants_in_sample/5f5a35586b8c1d6d377b77f6/biosamples/](http://progenetix.org/beacon/variants_in_sample/5f5a35586b8c1d6d377b77f6/biosamples/)
