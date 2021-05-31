@@ -6,7 +6,16 @@ The Beacon+ implementation - developed in the Python & MongoDB based [`bycon` pr
 implements an expanding set of Beacon v2 paths for the [Progenetix](http://progenetix.org)
 resource.
 
-----
+### Changes
+
+* 2021-05-29: New `resultSets` response format
+  - no change to front-end or examples here but change of `bycon` backend
+* 2021-05-11: Added `/analyses`
+* 2021-05-02: Added base path for `BeaconInfoResponse`
+* 2021-04-26: First Version
+
+
+### Paths
 
 #### Base `/`
 
