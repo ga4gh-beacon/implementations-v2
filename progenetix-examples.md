@@ -8,6 +8,7 @@ resource.
 
 ### Changes
 
+* 2021-06-07: Added `variants_interpretations` example
 * 2021-05-29: New `resultSets` response format
   - no change to front-end or examples here but change of `bycon` backend
 * 2021-05-11: Added `/analyses`
