@@ -39,7 +39,10 @@ to `http://progenetix.org/beacon/variants/` or `http://progenetix.org/beacon/bio
     "meta": {
         "apiVersion": "2.0",
         "requestedSchemas": [
-          { "entityType": "VariantInSampleResponse", "schema:": "https://progenetix.org/services/schemas/Variant/"}
+          {
+            "entityType": "VariantInSampleResponse",
+            "schema:": "https://progenetix.org/services/schemas/Variant/"
+          }
         ]
     },
     "query": {
