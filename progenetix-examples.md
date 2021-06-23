@@ -8,12 +8,53 @@ resource.
 
 ### Changes
 
+* 2021-06-23: New JSON POST example & topic
 * 2021-06-07: Added `variants_interpretations` example
 * 2021-05-29: New `resultSets` response format
   - no change to front-end or examples here but change of `bycon` backend
 * 2021-05-11: Added `/analyses`
 * 2021-05-02: Added base path for `BeaconInfoResponse`
 * 2021-04-26: First Version
+
+### Scoped responses from query object
+
+In queries with a complete `beaconRequestBody` the type of the delivered data is independent
+of the path and determined in the `requestedSchemas`. So far, Beacon+ will compare the first
+of those to its supported responses and provide the results accordingly; it doesn't matter
+if the endpoint was `/becon/biosamples/` or `/beacon/variants/` etc. If no matching response
+type is found the path default will be used.
+
+Below is an example for the standard test "small deletion CNVs in the CDKN2A locus, in gliomas"
+Progenetix test query, here responding with the matched variants. Exchanging the `entityType`
+entry to
+
+* `{ "entityType": "BiosampleResponse", "schema:": "https://progenetix.org/services/schemas/Biosample/"}`
+
+would change this to a biosample response. The example ccan be tested by POSTing this as `application/json`
+to `http://progenetix.org/beacon/variants/`.
+
+```
+{
+    "$schema":"beaconRequestBody.json",
+    "meta": {
+        "apiVersion": "2.0",
+        "requestedSchemas": [
+          { "entityType": "VariantInSampleResponse", "schema:": "https://progenetix.org/services/schemas/Variant/"}
+        ]
+    },
+    "query": {
+        "requestParameters": {
+            "datasetIds": ["progenetix"],
+            "assemblyid": "GRCh38",
+            "referenceName": "9",
+            "start": [21500001, 21975098],
+            "end": [21967753, 22500000], 
+            "variantType": "DEL"
+        }
+    },
+    "filters": ["NCIT:C3058"]
+}
+```
 
 
 ### Paths
