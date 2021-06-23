@@ -31,7 +31,7 @@ entry to
 * `{ "entityType": "BiosampleResponse", "schema:": "https://progenetix.org/services/schemas/Biosample/"}`
 
 would change this to a biosample response. The example ccan be tested by POSTing this as `application/json`
-to `http://progenetix.org/beacon/variants/`.
+to `http://progenetix.org/beacon/variants/` or `http://progenetix.org/beacon/biosamples/`.
 
 ```
 {
