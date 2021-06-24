@@ -39,10 +39,10 @@ to `http://progenetix.org/beacon/variants/` or `http://progenetix.org/beacon/bio
     "meta": {
         "apiVersion": "2.0",
         "requestedSchemas": [
-          {
-            "entityType": "VariantInSampleResponse",
-            "schema:": "https://progenetix.org/services/schemas/Variant/"
-          }
+            {
+                "entityType": "variantInSample",
+                "schema:": "https://progenetix.org/services/schemas/Variant/"
+            }
         ]
     },
     "query": {
@@ -55,7 +55,9 @@ to `http://progenetix.org/beacon/variants/` or `http://progenetix.org/beacon/bio
             "variantType": "DEL"
         }
     },
-    "filters": ["NCIT:C3058"]
+    "filters": [
+        { "id": "NCIT:C3058" }
+    ]
 }
 ```
 
