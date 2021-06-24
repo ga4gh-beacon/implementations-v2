@@ -8,6 +8,12 @@ resource.
 
 ### Changes
 
+* 2021-06-24: Updated response structure conforming to v2b4:
+  - `response_summary`
+  - removal of `response` root element & direct use of `result_sets`
+* 2021-06-24: Updated query structure conforming to v2b4
+  - `entityType` format fixed
+  - `filters` now objects
 * 2021-06-23: New JSON POST example & topic
 * 2021-06-07: Added `variants_interpretations` example
 * 2021-05-29: New `resultSets` response format
