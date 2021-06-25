@@ -8,6 +8,7 @@ resource.
 
 ### Changes
 
+* 2021-06-25: updated for `datasets` parameter as object
 * 2021-06-24: Updated response structure conforming to v2b4:
   - `response_summary`
   - removal of `response` root element & direct use of `result_sets`
@@ -53,7 +54,9 @@ to `http://progenetix.org/beacon/variants/` or `http://progenetix.org/beacon/bio
     },
     "query": {
         "requestParameters": {
-            "datasetIds": ["progenetix"],
+            "datasets": {
+                "datasetIds": ["progenetix"]
+            },
             "assemblyid": "GRCh38",
             "referenceName": "9",
             "start": [21500001, 21975098],
