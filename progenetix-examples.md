@@ -8,6 +8,7 @@ resource.
 
 ### Changes
 
+* 2021-07-02: update for [`/filteringTerms/`](https://progenetix.org/beacon/filteringTerms/) endpoint to v2b4
 * 2021-06-25: updated for `datasets` parameter as object
 * 2021-06-24: Updated response structure conforming to v2b4:
   - `response_summary`
