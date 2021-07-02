@@ -97,6 +97,17 @@ The root path provides the standard `BeaconInfoResponse`.
 
 ----
 
+#### Base `/core`
+
+##### `/core/` + query
+
+* [/core/?assemblyId=GRCh38&referenceName=17&variantType=DEL&filterLogic=AND&start=7500000&start=7676592&end=7669607&end=7800000](http://progenetix.org/beacon/core/?assemblyId=GRCh38&referenceName=17&variantType=DEL&filterLogic=AND&start=7500000&start=7676592&end=7669607&end=7800000)
+  - this is an example for a Beacon "Bracket Query" which will return "true" if there are any matches in the database
+* [/core/?filters=cellosaurus:CVCL_0004](https://progenetix.org/beacon/core/?filters=cellosaurus:CVCL_0004)
+  - this tests if there is a sample with the Cellosaurus _CVCL_0004_ identifier (K562)
+
+----
+
 #### Base `/biosamples`
 
 ##### `/biosamples/` + query
