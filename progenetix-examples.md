@@ -171,20 +171,20 @@ If using `g_variants` or `variants_in_sample`, those will be treated as aliases.
 
 ##### `/variants/{id}/` or `/variants_in_sample/{id}` or `/g_variants/{id}/`
 
-* [/variants/5f5a35586b8c1d6d377b77f6/](http://progenetix.org/beacon/variants/5f5a35586b8c1d6d377b77f6/)
-* [/variants_in_sample/5f5a35586b8c1d6d377b77f6/](http://progenetix.org/beacon/variants_in_sample/5f5a35586b8c1d6d377b77f6/)
+* [/variants/pgxvar-5f5a35586b8c1d6d377b77f6/](http://progenetix.org/beacon/variants/pgxvar-5f5a35586b8c1d6d377b77f6/)
+* [/variants_in_sample/pgxvar-5f5a35586b8c1d6d377b77f6/](http://progenetix.org/beacon/variants_in_sample/pgxvar-5f5a35586b8c1d6d377b77f6/)
 
 ##### `/variants/{id}/biosamples/` & `variants_in_sample/{id}/biosamples/`
 
-* [/variants/5f5a35586b8c1d6d377b77f6/biosamples/](http://progenetix.org/beacon/variants/5f5a35586b8c1d6d377b77f6/biosamples/)
-* [/variants_in_sample/5f5a35586b8c1d6d377b77f6/biosamples/](http://progenetix.org/beacon/variants_in_sample/5f5a35586b8c1d6d377b77f6/biosamples/)
+* [/variants/pgxvar-5f5a35586b8c1d6d377b77f6/biosamples/](http://progenetix.org/beacon/variants/pgxvar-5f5a35586b8c1d6d377b77f6/biosamples/)
+* [/variants_in_sample/pgxvar-5f5a35586b8c1d6d377b77f6/biosamples/](http://progenetix.org/beacon/variants_in_sample/pgxvar-5f5a35586b8c1d6d377b77f6/biosamples/)
 
 ##### `/variants/{id}/variants_interpretations/`
 
 This is yet (2021-06-07) an early test of a variants interpretations delivery for a given
 variant, implemented for a test dataset (therefore the added id).
 
-* [/variants/60b01d7fe517e5e929525eae/variants_interpretations/?datasetIds=cellosaurus](https://progenetix.org/beacon/variants/60b01d7fe517e5e929525eae/variants_interpretations/?datasetIds=cellosaurus)
+* [/variants/pgxvar-60b01d7fe517e5e929525eae/variants_interpretations/?datasetIds=cellosaurus](https://progenetix.org/beacon/variants/pgxvar-60b01d7fe517e5e929525eae/variants_interpretations/?datasetIds=cellosaurus)
 
 ----
 
