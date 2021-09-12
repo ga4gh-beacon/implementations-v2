@@ -145,7 +145,7 @@ The root path provides the standard `BeaconInfoResponse`.
 
 ##### `/individuals/{id}/`
 
-* [/biosamples/pgxind-kftx25hb/](http://progenetix.org/beacon/biosamples/pgxind-kftx25hb/)
+* [/individuals/pgxind-kftx25hb/](http://progenetix.org/beacon/biosamples/pgxind-kftx25hb/)
   - retrieval of a single individual
 
 ##### `/individuals/{id}/variants/` & `/individuals/{id}/variants_in_sample/`
