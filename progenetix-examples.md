@@ -8,6 +8,7 @@ resource.
 
 ### Changes
 
+* 2021-11-02: removed `/core` since not used in other examples
 * 2021-07-21: added [`/map`](https://progenetix.org/beacon/map) endpoint (incomplete/unser construction)
 * 2021-07-21: added [`/configuration`](https://progenetix.org/beacon/configuration) endpoint (incomplete/unser construction)
 * 2021-07-02: added for [`/core`](https://progenetix.org/beacon/core/?filters=cellosaurus:CVCL_0004) endpoint (here shown with query)
@@ -97,6 +98,10 @@ The root path provides the standard `BeaconInfoResponse`.
 * [/filtering_terms/?filters=PMID](https://progenetix.org/beacon/filtering_terms/?filters=PMID)
 * [/filtering_terms/?filters=NCIT,icdom](https://progenetix.org/beacon/filtering_terms/?filters=NCIT,icdom)
 
+<!--
+
+Commented this since it doesn't look like a general use?
+
 ----
 
 #### Base `/core`
@@ -107,6 +112,7 @@ The root path provides the standard `BeaconInfoResponse`.
   - this is an example for a Beacon "Bracket Query" which will return "true" if there are any matches in the database
 * [/core/?filters=cellosaurus:CVCL_0004](https://progenetix.org/beacon/core/?filters=cellosaurus:CVCL_0004)
   - this tests if there is a sample with the Cellosaurus _CVCL_0004_ identifier (K562)
+-->
 
 ----
 
