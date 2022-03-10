@@ -8,6 +8,7 @@ resource.
 
 ### Changes
 
+* 2021-11-02: added `/testMode` example
 * 2021-11-02: removed `/core` since not used in other examples
 * 2021-07-21: added [`/map`](https://progenetix.org/beacon/map) endpoint (incomplete/unser construction)
 * 2021-07-21: added [`/configuration`](https://progenetix.org/beacon/configuration) endpoint (incomplete/unser construction)
@@ -92,7 +93,6 @@ The root path provides the standard `BeaconInfoResponse`.
 
 * [/filtering_terms/](https://progenetix.org/beacon/filtering_terms/)
 
-
 ##### `/filtering_terms/` + query
 
 * [/filtering_terms/?filters=PMID](https://progenetix.org/beacon/filtering_terms/?filters=PMID)
@@ -129,6 +129,12 @@ Commented this since it doesn't look like a general use?
 * [/biosamples/pgxbs-kftva5c9/](http://progenetix.org/beacon/biosamples/pgxbs-kftva5c9/)
   - retrieval of a single biosample
 
+##### `/biosamples/?testMode=true`
+
+* [/biosamples/?testMode=true](http://progenetix.org/beacon/biosamples/?testMode=true)
+  - retrieval of some random samples
+  - for testing API responses
+
 ##### `/biosamples/{id}/variants/` & `/biosamples/{id}/variants_in_sample/`
 
 * [/biosamples/pgxbs-kftva5c9/variants/](http://progenetix.org/beacon/biosamples/pgxbs-kftva5c9/variants/)
@@ -154,6 +160,12 @@ Commented this since it doesn't look like a general use?
 * [/individuals/pgxind-kftx25hb/](http://progenetix.org/beacon/biosamples/pgxind-kftx25hb/)
   - retrieval of a single individual
 
+##### `/individuals/?testMode=true`
+
+* [/individuals/?testMode=true](http://progenetix.org/beacon/individuals/?testMode=true)
+  - retrieval of some random individuals
+  - for testing API responses
+
 ##### `/individuals/{id}/variants/` & `/individuals/{id}/variants_in_sample/`
 
 * [/individuals/pgxind-kftx25hb/variants/](http://progenetix.org/beacon/individuals/pgxind-kftx25hb/variants/)
@@ -171,6 +183,12 @@ follow a "variant observations" principle all variant requests are directed agai
 the local `variants` collection.
 
 If using `g_variants` or `variants_in_sample`, those will be treated as aliases.
+
+##### `/variants/?testMode=true`
+
+* [/variants/?testMode=true](http://progenetix.org/beacon/variants/?testMode=true)
+  - retrieval of some random variants
+  - for testing API responses
 
 ##### `/variants/` + query
 
@@ -202,6 +220,12 @@ The Beacon v2 `/analyses` endpoint accesses the Progenetix `callsets` collection
 documents, i.e. information about the genomic variants derived from a single
 analysis. In Progenetix the main use of these documents is the storage of e.g.
 CNV statistics or binned genome calls.
+
+##### `/analyses/?testMode=true`
+
+* [/analyses/?testMode=true](http://progenetix.org/beacon/analyses/?testMode=true)
+  - retrieval of some random analyses
+  - for testing API responses
 
 ##### `/analyses/` + query
 
