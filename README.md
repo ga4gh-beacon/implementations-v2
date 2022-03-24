@@ -1,3 +1,3 @@
 # Beacon v2 Test Implementation Examples
 
-Please add information to the [index page](index.md) or to pages linked from there.
+Example implementations have been moved to the [Beacon v2 Documentation](https://github.com/ga4gh-beacon/beacon-v2/edit/main/docs/implementations/) - web [access here](http://docs.genomebeacons.org/other-implementations/).
